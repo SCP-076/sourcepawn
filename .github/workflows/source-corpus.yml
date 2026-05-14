@@ -54,4 +54,4 @@ jobs:
       - name: Test
         run: |
           python tools/corpus/run.py ${SPCOMP} ${GITHUB_WORKSPACE}/sourcepawn-corpus -j \
-                 --fail-fast --num-slice 5 --slice ${{ matrix.slice }}
+                 --num-slice 5 --slice ${{ matrix.slice }}

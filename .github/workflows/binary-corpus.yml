@@ -54,4 +54,4 @@ jobs:
       - name: Test
         run: |
           python tools/corpus/verify.py ${VERIFIER} ${GITHUB_WORKSPACE}/sourcepawn-binary-corpus -j \
-                 --fail-fast --num-slice 5 --slice ${{ matrix.slice }}
+                 --num-slice 5 --slice ${{ matrix.slice }}
